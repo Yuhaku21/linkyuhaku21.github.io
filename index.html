@@ -8,40 +8,46 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" />
     <style>
       body {
-        font-family: comic sans ms;
+        font-family: sans-serif;
         background-image: url(pixel.gif);
-        background-size: cover; /* Untuk mengisi seluruh area */
+        background-size: cover;
+      }
+      /* Tambahkan kelas CSS khusus untuk mengatur lebar kartu */
+      .custom-card {
+        border-radius: 30px;
+        max-width: 300px; /* Sesuaikan dengan lebar yang Anda inginkan */
+        margin: 0 auto; /* Untuk membuat kartu menjadi tengah */
       }
     </style>
   </head>
   <body>
-    <!--AwalIntro-->
-    <div class="container mt-3" style="width: 420px">
+    <div class="container mt-3">
       <div class="row">
-        <div class="col text-center" style="color: white">
-          <h1><b>Welcome to the LinkHan</b></h1>
+        <div class="col text-center">
+          <h1 style="color: white"><b>Welcome to the LinkHan</b></h1>
         </div>
       </div>
       <div class="row" style="margin-top: 90px">
         <div class="col text-center">
           <h3 style="color: white">don't forget to follow me on</h3>
           <p style="margin-top: -2px; margin-bottom: 20px">👇👇👇👇👇</p>
-          <div class="card border-5 border-dark" style="border-radius: 100px">
+          <!-- Gunakan kelas CSS khusus untuk kartu -->
+          <div class="card border-5 border-dark custom-card">
             <div class="card-body">
               <a href="https://github.com/Yuhaku21" style="color: black; text-decoration: none"><b>Github Yuhaku21</b></a>
             </div>
           </div>
-          <div class="card border-5 border-dark mt-3" style="border-radius: 100px">
+          <div class="card border-5 border-dark mt-3 custom-card">
             <div class="card-body">
               <a href="https://www.instagram.com/hi_yuhaku/" style="color: black; text-decoration: none"><b>Instagram hi_yuhaku</b></a>
             </div>
           </div>
-          <div class="card border-5 border-dark mt-3" style="border-radius: 100px">
+          <div class="card border-5 border-dark mt-3 custom-card">
             <div class="card-body">
               <a href="https://dribbble.com/Lord_Hann" style="color: black; text-decoration: none"><b>Dribbble Farhan Saputra</b></a>
             </div>
           </div>
-          <div class="card border-5 border-dark mt-3" style="border-radius: 100px">
+          <div class="card border-5 border-dark mt-3 custom-card">
             <div class="card-body">
               <a href="https://www.linkedin.com/in/han-saputra-79a054222/" style="color: black; text-decoration: none"><b>Linkedin han saputra</b></a>
             </div>
@@ -54,7 +60,6 @@
         </div>
       </div>
     </div>
-    <!--AkhirIntro-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>
 </html>
