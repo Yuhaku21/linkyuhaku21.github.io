@@ -6,6 +6,7 @@
     <title>Links Han</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <style>
       body {
         font-family: sans-serif;
@@ -24,30 +25,31 @@
     <div class="container mt-3">
       <div class="row">
         <div class="col text-center mt-3">
-          <h1 style="color: white"><b>Welcome to the LinkHan</b></h1>
+          <h1 style="color: white" data-aos="zoom-in"><b>Welcome to the LinkHan</b></h1>
         </div>
       </div>
       <div class="row" style="margin-top: 90px">
         <div class="col text-center">
-          <h3 style="color: white">don't forget to follow me on</h3>
-          <p style="margin-top: -2px; margin-bottom: 20px">👇👇👇👇👇</p>
+          <h3 style="color: white" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">don't forget to follow me on</h3>
+          <p style="margin-top: -2px; margin-bottom: 20px" data-aos="zoom-in-up">👇👇👇👇👇</p>
           <!-- Gunakan kelas CSS khusus untuk kartu -->
-          <div class="card border-5 border-dark custom-card">
+          <div class="card border-5 border-dark custom-card" data-aos="fade-right">
             <div class="card-body">
               <a href="https://github.com/Yuhaku21" style="color: black; text-decoration: none"><b>Github Yuhaku21</b></a>
             </div>
           </div>
-          <div class="card border-5 border-dark mt-3 custom-card">
+          <div class="card border-5 border-dark mt-3 custom-card" data-aos="fade-left">
             <div class="card-body">
               <a href="https://www.instagram.com/hi_yuhaku/" style="color: black; text-decoration: none"><b>Instagram hi_yuhaku</b></a>
             </div>
           </div>
-          <div class="card border-5 border-dark mt-3 custom-card">
+          <div class="card border-5 border-dark mt-3 custom-card" data-aos="fade-right">
             <div class="card-body">
               <a href="https://dribbble.com/Lord_Hann" style="color: black; text-decoration: none"><b>Dribbble Farhan Saputra</b></a>
             </div>
           </div>
-          <div class="card border-5 border-dark mt-3 custom-card">
+          <div class="card border-5 border-dark mt-3 custom-card" data-aos="fade-left">
             <div class="card-body">
               <a href="https://www.linkedin.com/in/han-saputra-79a054222/" style="color: black; text-decoration: none"><b>Linkedin han saputra</b></a>
             </div>
@@ -60,6 +62,10 @@
       </footer>
       <!--footer-->
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>
 </html>
